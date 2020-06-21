@@ -24,7 +24,6 @@ addBotMessage = (reply) => {
 };
 
 /*элемент печатания текста*/
-
 const loader = () => {
     const loadWrap = doc.querySelector('.add-message');
     const loaderElem = document.createElement('div');
