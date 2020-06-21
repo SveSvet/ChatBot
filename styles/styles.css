@@ -50,23 +50,23 @@ body {
 .user-block {
     width: 30%;
     display: flex;
-    align-self: flex-end;
     padding: 5px 10px;
     background: #F9C35B;
     border-radius: 35px;
     color: #282828;
     margin: 5px 10px;
-    transition: 2s;
 }
 
 .bot-block {
-    width: 50%;
-    padding: 15px 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: #F1F0F0;
     border-radius: 35px;
     color: #282828;
     margin: 5px 10px;
-    transition: 2s;
+    padding: 15px;
 }
 
 .add-message {
@@ -81,7 +81,7 @@ body {
 }
 
 .add-weather {
-    width: 30%;
+    width: 50%;
     border-radius: 5px;
     margin-left: 20px;
 }
@@ -124,6 +124,10 @@ body {
 
 .hidden {
     display: none;
+}
+
+.opacity {
+    opacity: .4;
 }
 
 @keyframes loading {
